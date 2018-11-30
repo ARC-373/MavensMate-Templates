@@ -1,12 +1,13 @@
 @isTest
-private class {{ api_name }} {
+private class {{ api_name }}{
 	
-	@isTest static void test_method_one() {
-		// Implement test code
+	@TestSetup
+	private static void setup(){
+		
 	}
 	
-	@isTest static void test_method_two() {
-		// Implement test code
+	@isTest 
+	private static void methodName(){
+
 	}
-	
 }

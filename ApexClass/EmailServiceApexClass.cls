@@ -1,7 +1,7 @@
 global class {{ api_name }} implements Messaging.InboundEmailHandler {
 	
 	global Messaging.InboundEmailResult handleInboundEmail(Messaging.inboundEmail email,
-																Messaging.InboundEnvelope env) {
+		Messaging.InboundEnvelope env) {
  
 		// Create an InboundEmailResult object for returning the result of the
 		// Apex Email Service
