@@ -1,4 +1,4 @@
-public without sharing class {{ api_name }} extends TriggerHandler{
+public class {{ api_name }} extends TriggerHandler{
     
     private static Integer instanceCount = 0;
 
@@ -24,29 +24,36 @@ public without sharing class {{ api_name }} extends TriggerHandler{
     
     Override
     public void onBeforeInsert(){
+
     }
     
     Override
     public void onAfterInsert(){
+
     }
     
     Override
     public void onBeforeUpdate(){
+
     }
     
     Override
     public void onAfterUpdate(){
+
     }
     
     Override
     public void onBeforeDelete(){
+
     }
     
     Override
     public void onAfterDelete(){
+
     }
     
     Override
     public void onAfterUndelete(){
+    	
     }
 }

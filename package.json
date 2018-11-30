@@ -192,6 +192,19 @@
             ]
         },
         {  
+            "name":"LightningController",
+            "file_name":"LightningController.cls",
+            "description":"LightningController Classes template",
+            "author":"Alan Cardoso",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":""
+                }
+            ]
+        },
+        {  
             "name":"No Constructor",
             "file_name":"ApexClassNoConstructor.cls",
             "description":"The default template for an Apex Class",
@@ -276,6 +289,19 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyApexSingleton"
+                }
+            ]
+        },
+        {  
+            "name":"SObjectDAO",
+            "file_name":"SObjectDAO.cls",
+            "description":"SObject DAO Class template",
+            "author":"Alan Cardoso",
+            "params":[  
+                {  
+                    "name":"object_name",
+                    "description":"SObject API Name",
+                    "default":""
                 }
             ]
         },
